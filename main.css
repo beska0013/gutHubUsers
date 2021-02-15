@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #f1f1f1;
+  font-family: "Poppins ExtraBold", sans-serif;
+}
+
+.main {
+  height: 100%;
+  width: 70%;
+  padding: 2rem 0;
+}
+.main input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 8px;
+}
+.main .users {
+  box-sizing: border-box;
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 8px;
+  border: outset 2px #ffffff45;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+.main .users div {
+  position: relative;
+  border-bottom: outset 1px #ffffff45;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4em;
+  padding: 1em;
+}
+.main .users div img {
+  border-radius: 50%;
+  height: 3.5em;
+  width: 3.5em;
+}
+.main .users div p {
+  left: 5rem;
+  position: absolute;
+  text-transform: capitalize;
+}
+.main .users div a {
+  text-decoration: none;
+  color: #fefefe;
+  background-color: #249ff2;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
